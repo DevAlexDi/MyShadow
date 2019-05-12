@@ -1,0 +1,9 @@
+@import "layout/var";
+
+.circles-wr {
+    padding: 48px 0 290px;
+
+    @media (min-width: 1610px){
+        padding: 48px 0 320px;
+    }
+}

@@ -1,0 +1,23 @@
+@import "layout/var";
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+        border: none;
+        outline: none;
+        display: block;
+        padding: 17px 18px;
+        background: #50e3c2;
+        color: #020202;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #95bfe5;
+        }
+    }
+}

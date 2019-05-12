@@ -1,0 +1,29 @@
+@import "layout/var";
+
+.header {
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 767px){
+        display: block;
+    }
+
+    &__logo {
+        font-family: $bold;
+        font-size: 26px;
+        display: block;
+        color: #000;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #50e3c2;
+        }
+        
+        @media (max-width: 767px){
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}

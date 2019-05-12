@@ -1,0 +1,27 @@
+@import "layout/var";
+
+.road-wr {
+   position: relative;
+   padding: 160px 0 273px;
+   overflow: hidden;
+   margin-top: -66px;
+
+   @media (min-width: 1610px){
+        padding: 179px 0 308px;
+   }
+
+   @media (max-width: 767px){
+        padding: 121px 0 185px;
+   }
+   
+   &__ellips {
+        position: absolute;
+        bottom: 73px;
+        left: 50%;
+        transform: translateX(-412px) rotate(-7deg);
+        border-radius: 50%;
+        width: 1400px;
+        height: 500px;
+        background: #95bfe5;
+    }
+}

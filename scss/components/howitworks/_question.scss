@@ -1,0 +1,16 @@
+@import "layout/var";
+
+.question {
+    margin-bottom: 35px;
+
+    &__name {
+        color: #030303;
+        font-size: 20px;
+        font-family: $bold;
+    }
+
+    &__answer {
+        color: #030303;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,46 @@
+@import "layout/var";
+
+.works-list {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 991px){
+        margin-bottom: 30px;
+    }
+
+    @media (max-width: 767px){
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    &__item {
+        max-width: 330px;
+        width: 100%;
+        margin-bottom: 12px;
+
+        @media (max-width: 767px){
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }
+
+    &__img {
+        margin: 0 auto 28px auto;
+
+        @media (max-width: 767px){
+            margin: 0 auto;
+        }
+    }
+
+    &__text {
+        font-size: 20px;
+        text-align: center;
+        color: #030303;
+
+        span {
+            font-family: $bold;
+        }
+    }
+}

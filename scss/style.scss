@@ -1,0 +1,27 @@
+@import "base/fonts";
+@import "layout/var";
+@import "layout/app";
+//header
+@import "components/header/header";
+@import "components/header/headerNav";
+//baner
+@import "components/baner/baner";
+@import "components/baner/buttonWrapper";
+//road
+@import "components/road/roadWr";
+@import "components/road/road";
+@import "components/road/roadMap";
+//how it works
+@import "components/howitworks/howItWorks";
+@import "components/howitworks/worksList";
+@import "components/howitworks/question";
+@import "components/howitworks/answerList";
+//join
+@import "components/join/joinWrapp";
+@import "components/join/join";
+@import "components/join/joinList";
+//circles
+@import "components/circles/circlesWr";
+@import "components/circles/circles";
+//footer
+@import "components/footer/footer";

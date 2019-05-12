@@ -1,0 +1,51 @@
+@import "layout/var";
+
+.header-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 767px){
+        justify-content: center;
+    }
+
+    &__item {
+        padding: 0 16px;
+
+        @media (max-width: 767px){
+            padding: 0 8px;
+        }
+
+        &--sign_in {
+            margin-left: 50px;
+
+            @media (max-width: 767px){
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__link {
+        color: #000;
+        font-size: 20px;
+        transition: color 0.3s;
+
+        &--active {
+            border-bottom: 3px solid #50e3c2;
+        }
+
+        &:hover {
+            color: #50e3c2;
+        }
+
+        @media (max-width: 767px){
+            font-size: 16px;
+        }
+
+        &--bold {
+            font-family: $bold;
+        }
+    }
+}

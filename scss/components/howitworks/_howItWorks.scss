@@ -1,0 +1,12 @@
+@import "layout/var";
+
+.how-it-works {
+    margin-bottom: 145px;
+
+    &__title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 26px;
+        font-family: $bold;
+    }
+}

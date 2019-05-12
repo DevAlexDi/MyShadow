@@ -1,0 +1,16 @@
+@import "layout/var";
+
+.join {
+    position: relative;
+    z-index: 5;
+    top: -30px;
+    padding-bottom: 15px;
+
+    &__title {
+        font-size: 24px;
+        color: #030303;
+        font-family: $bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

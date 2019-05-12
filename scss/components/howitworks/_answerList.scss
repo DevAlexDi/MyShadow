@@ -1,0 +1,26 @@
+@import "layout/var";
+
+.answer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+        color: #030303;
+        font-size: 20px;
+        position: relative;
+        padding-left: 30px;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 9px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background: #95bfe5;
+            border-radius: 50%;
+        }
+    }
+}
