@@ -58,18 +58,171 @@
             <div class="humans">
                 <div class="humans__item">
                     <div class="human">
-                        <div class="human__ava"></div>
-                        <p class="human__name">Danny Setiawan</p>
-                        <p class="human__state">Managing Director</p>
-                        <p class="human__company">CoCreate Consulting</p>
-                        <button class="human__book">Book</button>
+                        <div class="human__top">
+                            <div class="human__ava" style="background-image: url(img/ava.jpg)"></div>
+                            <p class="human__name">Danny Setiawan</p>
+                            <p class="human__info">Managing Director</p>
+                            <p class="human__info">CoCreate Consulting</p>
+                        </div>
+                        <div class="human__bott">
+                            <div class="button-wrapper button-wrapper--sm-theme">
+                                <button class="button-wrapper__button human-modal-open">book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humans__item">
+                    <div class="human">
+                        <div class="human__top">
+                            <div class="human__ava" style="background-image: url(img/ava.jpg)"></div>
+                            <p class="human__name">Danny Setiawan</p>
+                            <p class="human__info">Managing Director</p>
+                            <p class="human__info">CoCreate Consulting</p>
+                        </div>
+                        <div class="human__bott">
+                            <div class="button-wrapper button-wrapper--sm-theme">
+                                <button class="button-wrapper__button human-modal-open">book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humans__item">
+                    <div class="human">
+                        <div class="human__top">
+                            <div class="human__ava" style="background-image: url(img/ava.jpg)"></div>
+                            <p class="human__name">Danny Setiawan</p>
+                            <p class="human__info">CoCreate Consulting</p>
+                        </div>
+                        <div class="human__bott">
+                            <div class="button-wrapper button-wrapper--sm-theme">
+                                <button class="button-wrapper__button human-modal-open">book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humans__item">
+                    <div class="human">
+                        <div class="human__top">
+                            <div class="human__ava" style="background-image: url(img/ava.jpg)"></div>
+                            <p class="human__name">Danny Setiawan</p>
+                        </div>
+                        <div class="human__bott">
+                            <div class="button-wrapper button-wrapper--sm-theme">
+                                <button class="button-wrapper__button human-modal-open">book</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="humans-wr__load-more">
+            <button class="humans-wr__button">Load more</button>
+        </div>
     </section>
+
+    <div class="modal fade modal-human" id="modal-human" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-human__body">
+                <button type="button" class="close-modal modal-human__close-modal" data-dismiss="modal" aria-label="Close"></button>
+                <div class="human-descr">
+                    <div class="human-descr__side">
+                        <div class="human-descr__width">
+                            <div class="human-descr__ava" style="background-image: url(img/ava.jpg)"></div>
+                            <p class="human-descr__name">Danny Setiawan</p>
+                            <div class="human-info">
+                                <div class="human-info__side">
+                                    <p class="human-info__state">Managing Director</p>
+                                    <p class="human-info__state">CoCreate Consulting</p>
+                                </div>
+                                <a href="#" class="human-info__linked">
+                                        <svg version="1.1" class="img-responsive" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+                                        xml:space="preserve">
+                                        <g>
+                                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+                                           C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+                                           h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+                                           C438.532,59.576,430.49,40.204,414.41,24.123z M133.618,367.157H67.666V169.016h65.952V367.157z M127.626,132.332
+                                           c-6.851,6.567-15.893,9.851-27.124,9.851h-0.288c-10.848,0-19.648-3.284-26.407-9.851c-6.76-6.567-10.138-14.703-10.138-24.41
+                                           c0-9.897,3.476-18.083,10.421-24.556c6.95-6.471,15.942-9.708,26.98-9.708c11.039,0,19.89,3.237,26.553,9.708
+                                           c6.661,6.473,10.088,14.659,10.277,24.556C137.899,117.625,134.477,125.761,127.626,132.332z M370.873,367.157h-65.952v-105.92
+                                           c0-29.879-11.036-44.823-33.116-44.823c-8.374,0-15.42,2.331-21.128,6.995c-5.715,4.661-9.996,10.324-12.847,16.991
+                                           c-1.335,3.422-1.999,8.75-1.999,15.981v110.775h-65.952c0.571-119.529,0.571-185.579,0-198.142h65.952v27.974
+                                           c13.867-21.681,33.558-32.544,59.101-32.544c22.84,0,41.21,7.52,55.104,22.554c13.895,15.037,20.841,37.214,20.841,66.519v113.64
+                                           H370.873z"/>
+                                        </g>
+                                    </svg>                                   
+                                </a>
+                            </div>
+                            <div class="reviews human-descr__reviews">
+                                <div class="reviews__stars">
+                                    <img src="img/fullstar.svg" class="reviews__star img-responsive" alt="">
+                                    <img src="img/fullstar.svg" class="reviews__star img-responsive" alt="">
+                                    <img src="img/fullstar.svg" class="reviews__star img-responsive" alt="">
+                                    <img src="img/fullstar.svg" class="reviews__star img-responsive" alt="">
+                                    <img src="img/fullstar.svg" class="reviews__star img-responsive" alt="">
+                                </div>
+                                <p class="reviews__count">8 reviews</p>
+                            </div>
+                            <div class="button-wrapper button-wrapper--sm-theme button-wrapper--lower-theme">
+                                <button class="button-wrapper__button human-modal-open">Add review</button>
+                            </div>
+                            <div class="mentor-info-list">
+                                <div class="mentor-info-list__row mentor-info-list__row--senter">
+                                    <p class="mentor-info-list__title">Experience:</p>
+                                    <p class="mentor-info-list__title">Bid starts from:</p>
+                                </div>
+                                <div class="mentor-info-list__row">
+                                    <p class="mentor-info-list__key mentor-info-list__key--groupe">Group site visit</p>
+                                    <p class="mentor-info-list__val">25$</p>
+                                </div>
+                                <div class="mentor-info-list__row">
+                                    <p class="mentor-info-list__key mentor-info-list__key--clock">1:1 meeting in the office</p>
+                                    <p class="mentor-info-list__val">40$</p>
+                                </div>
+                                <div class="mentor-info-list__row">
+                                    <p class="mentor-info-list__key mentor-info-list__key--coffee">for coffee</p>
+                                    <p class="mentor-info-list__val">40$</p>
+                                </div>
+                                <div class="mentor-info-list__row">
+                                    <p class="mentor-info-list__key mentor-info-list__key--video">video call</p>
+                                    <p class="mentor-info-list__val">20$</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="human-descr__side human-descr__side--flexed">
+                        <div class="human-details human-descr__human-details">
+                            <div class="human-details__item">
+                                <p class="human-details__title">What I do</p>
+                                <p class="human-details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                            </div>
+                            <div class="human-details__item">
+                                <p class="human-details__title">Who I Work With</p>
+                                <p class="human-details__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                            </div>
+                            
+                            <div class="human-details__item">
+                                <p class="human-details__title">My Daily Work Routine</p>
+                                <p class="human-details__text">re magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p> 
+                            </div>
+                            <div class="human-details__item">
+                                <p class="human-details__title">Who I Work With</p>
+                                <p class="human-details__text">re magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p> 
+                            </div>
+                        </div>
+                        <div class="button-wrapper button-wrapper--lg-theme human-descr__button">
+                            <button class="button-wrapper__button human-modal-open">Book a meeting</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/select2.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>

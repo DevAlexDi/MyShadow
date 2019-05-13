@@ -1,0 +1,25 @@
+@import "layout/var";
+
+.humans-wr {
+    margin-bottom: 62px;
+
+    &__load-more {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__button {
+        font-family: $medium;
+        display: block;
+        padding: 0;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 18px;
+        padding-right: 18px;
+        background-image: url(../img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+}

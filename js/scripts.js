@@ -3,4 +3,8 @@ $(document).ready(function(){
         width: 'resolve'
      });
 
+     $('.human-modal-open').click(function(){
+         $('#modal-human').modal('show');
+     });
+
 });

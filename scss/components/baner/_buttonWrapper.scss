@@ -20,4 +20,31 @@
             background-color: #95bfe5;
         }
     }
+
+    &--sm-theme {
+        .button-wrapper__button {
+            font-size: 14px;
+            min-width: 150px;
+            text-align: center;
+            padding: 6px 15px;
+            font-family: $medium;
+        }
+    }
+
+    &--lower-theme {
+        .button-wrapper__button {
+            text-transform: inherit;
+            border-radius: 6px;
+            font-family: $medium;
+        }
+    }
+
+    &--lg-theme {
+        .button-wrapper__button {
+            font-size: 21px;
+            font-family: $medium;
+            border-radius: 6px;
+            padding: 8px 12px
+        }
+    }
 }

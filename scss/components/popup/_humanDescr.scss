@@ -1,0 +1,92 @@
+@import "layout/var";
+
+.human-descr {
+    display: flex;
+
+    @media (max-width: 767px){
+        display: block;
+    }
+
+    &__side {
+        width: 50%;
+
+        @media (max-width: 767px){
+            width: 100%;
+        }
+
+        &:first-child {
+            padding-right: 15px;
+
+            @media (max-width: 767px){
+                padding: 0;
+            }
+        }
+
+        &:last-child {
+            padding-left: 15px;
+
+            @media (max-width: 767px){
+                padding: 0;
+            }
+        }
+
+        &--flexed {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__width {
+        width: 330px;
+
+        @media (max-width: 991px){
+            width: 100%;
+        }
+    }
+
+    &__ava {
+        width: 330px;
+        height: 330px;
+        background-color: #a1a1a1;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        background-size: cover;
+        background-position: center;
+
+        @media (max-width: 991px){
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    &__name {
+        font-family: $bold;
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+
+    &__reviews {
+        margin-bottom: 14px;
+    }
+
+    &__button {
+        max-width: 320px;
+        margin-top: auto;
+
+        @media (max-width: 991px){
+            max-width: 100%;
+        }
+    }
+
+    &__human-details {
+        padding-top: 35px;
+        max-width: 320px;
+        width: 100%;
+        margin-bottom: 40px;
+
+        @media (max-width: 991px){
+            max-width: 100%;
+        }
+    }
+}

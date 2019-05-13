@@ -1,0 +1,65 @@
+@import "layout/var";
+
+.mentor-info-list {
+    padding-top: 32px;
+
+    &__row {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 11px;
+        
+        &--senter {
+            align-items: center;
+        }
+    }
+
+    &__title {
+        font-size: 14px;
+        font-family: $bold;
+
+        &:first-child {
+            width: 70%;
+            padding-right: 15px;
+            padding-left: 37px;
+        }
+        &:last-child {
+            width: 30%;
+            text-align: center;
+        }
+    }
+
+    &__key {
+        font-size: 14px;
+        width: 70%;
+        padding-right: 15px;
+        padding-left: 37px;
+        font-family: $medium;
+        background-repeat: no-repeat;
+        background-position: center left;
+        padding: 3px 15px 3px 37px;
+
+        &--groupe {
+            background-image: url(../img/icon-1.png);
+        }
+
+        &--clock {
+            background-image: url(../img/icon-2.png);
+        }
+
+        &--coffee {
+            background-image: url(../img/icon-3.png);
+        }
+
+        &--video {
+            background-image: url(../img/icon-4.png);
+        }
+    }
+
+    &__val {
+        text-align: center;
+        font-family: $medium;
+        width: 30%;
+        text-align: center;
+        padding: 3px 0;
+    }
+}

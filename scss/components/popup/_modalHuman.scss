@@ -1,0 +1,43 @@
+@import "layout/var";
+
+.modal-human {
+    &__body {
+        background: #fff;
+        padding: 14px 33px 80px;
+        position: relative;
+
+        @media (max-width: 767px){
+            padding: 15px 10px 30px;
+        }
+    }
+
+    &__close-modal {
+        position: absolute;
+        top: 10px;
+        right: 13px;
+    }
+
+    .modal-dialog {
+        width: 922px;
+
+        @media (max-width: 991px){
+            width: 720px;
+        }
+
+        @media (max-width: 767px){
+            max-width: 400px;
+        }
+
+        @media (max-width: 500px){
+            max-width: 290px;
+        }
+    }
+}
+.modal-backdrop {
+    background: #eeeeee;
+}
+.modal-human .modal-dialog {
+    @media (max-width: 767px){
+        margin: 30px auto;
+    }
+}

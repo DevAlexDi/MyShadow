@@ -1,0 +1,25 @@
+@import "layout/var";
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    &__count {
+        font-size: 12px;
+        padding-left: 2px;
+        position: relative;
+        top: 3px;
+    }
+
+    &__stars {
+        display: flex;
+        align-items: center; 
+    }
+
+    &__star {
+        margin: 0 2px;
+        flex-shrink: 0;
+        width: 19px;
+    }
+}
