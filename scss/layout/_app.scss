@@ -42,4 +42,9 @@ a:focus {
             max-width: 856px;
         }
     }
+
+    &--lg {
+        max-width: 1400px;
+        padding: 0 20px;
+    }
 }
